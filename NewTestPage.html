@@ -5,7 +5,14 @@
 </head>
 
 <body>
+	<script type="module"
+src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script 
+nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+</script>
 	
-<a href="intent://arvr.google.com/scene-viewer/1.0?file=https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Avocado/glTF/Avocado.gltf&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;S.browser_fallback_url=https://developers.google.com/ar;end;"><img src="Pipe3Final.png" width=400></a>	
+	<model-viewer ar src="RobotExpressive.glb"
+              alt="this is a 3d model">
+</model-viewer>
 </body>
 </html>
